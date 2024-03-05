@@ -5,7 +5,7 @@ export const DrawerWidth = 250;
 // colors
 
 export const Colors = {
-  primary: "#f06292",
+  primary: "#E5E4E2",
   secondary: "#ba68c8",
   success: "#4CAF50",
   info: "#00a2ff",
@@ -70,8 +70,8 @@ const theme = createTheme({
       styleOverrides: {
         paper: {
           width: DrawerWidth,
-          background: Colors.primary,
-          color: Colors.secondary,
+          background: Colors.transarent,
+          color: Colors.light,
         //   borderRadius: "Opx 100px 0px 0px",
         //   borderRight: `1px solid ${Colors.primary}`,
         }
